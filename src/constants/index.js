@@ -19,7 +19,7 @@ import {
   git,
   nickelfox,
   newgen,
-  skillrisers,
+  indiainfotech,
   proximus,
   aptihealthWeb,
   aptihealthApp,
@@ -55,21 +55,45 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "React JS",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Next JS",
     icon: mobile,
   },
   {
-    title: "NodeJs Developer",
+    title: "HTML and CSS",
     icon: backend,
   },
   {
-    title: "Javascript Developer",
+    title: "Tailwind CSS",
+    icon: backend,
+  },
+  {
+    title: "UI Material",
+    icon: backend,
+  },
+  {
+    title: "Bootstrap",
+    icon: backend,
+  },
+  {
+    title: "WordPress",
     icon: creator,
   },
+  {
+    title: "Figma",
+    icon: creator,
+  },
+  {
+    title: "Photoshop",
+    icon: creator,
+  },
+  {
+    title: "Hosting Manage (WP)",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -84,11 +108,7 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  },  
   {
     name: "React JS",
     icon: reactjs,
@@ -98,75 +118,24 @@ const technologies = [
     icon: nextJs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Angular",
-    icon: angular,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
   },
   {
     name: "Git",
     icon: git,
   },
+
 ];
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
+    title: "Frontend Developer",
+    company_name: "India Infotech",
+    company_website: "https://www.indiainfotech.com/",
+    icon: indiainfotech,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Present",
-    points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
-    iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
-    points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
-    icon: skillrisers,
-    iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
+    date: "Jan 2016 - Present",
     points: [
       "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
       "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
@@ -175,19 +144,33 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
+    title: "Web Designer",
+    company_name: "IT Pramukh",
+    company_website: "#",
+    icon: newgen,
     iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
+    date: "Mar 2014 - Dec 2016",
     points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
+      "Designing visually compelling and user-friendly websites, employing HTML, CSS, and Photoshop to create seamless and aesthetically pleasing user interfaces.",
+      "Collaborating closely with cross-functional teams, including developers and product managers, to translate design concepts into fully functional and engaging web experiences.",
+      "Implementing responsive design practices to guarantee optimal performance and visual consistency across diverse devices and screen sizes.",
+      "Conducting thorough design reviews, actively participating in feedback sessions, and contributing to the refinement of web designs for enhanced quality and user satisfaction.",
     ],
   },
+  {
+    title: "Graphic Design",
+    company_name: "HP Softech",
+    company_website: "https://hpsoftech.com/",
+    icon: nickelfox,
+    iconBg: "#E6DEDD",
+    date: "Jan 2013 - 2014",
+    points: [
+      "Crafting visually engaging graphics and designs for various digital platforms, employing tools like Photoshop",
+      "Collaborating seamlessly with cross-functional teams, including designers and product managers, to produce compelling and high-quality visual content.",
+      "Developing and refining responsive design elements, ensuring optimal user experiences across diverse devices.",
+      "Conducting thorough graphic design code reviews, actively participating in constructive feedback sessions to enhance the overall quality of design deliverables.",
+    ],
+  },    
 ];
 
 const projects = [
@@ -326,29 +309,29 @@ const personalInfo = {
   fullName: "Kanha Jatthap",
   email: "kanhajatthap@gmail.com",
   role: "Frontend Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
-  create efficient, scalable, and user-friendly solutions that solve
-  real-world problems. Let's work together to bring your ideas to life!`,
-  projectsIntro: `Following projects showcases my skills and experience through
-  real-world examples of my work. Each project is briefly described with
-  live demos. It reflects my ability to solve complex problems, work
-  with different technologies, and manage projects effectively.`,
+  about: `With a dynamic skill set encompassing React JS, Next JS, JavaScript, GitHub, Redux, Material UI, HTML, CSS, WordPress, Tailwind CSS, Bootstrap, Figma, and Photoshop, I am a seasoned frontend developer. My journey began with 2 years in graphic design, evolving into 4 years of expertise in HTML, CSS, and Photoshop. Over the last 2 years, I've honed my skills in WordPress and specialized in React JS and Next JS. Passionate about creating visually stunning and functionally seamless user interfaces, I am dedicated to bringing innovation and excellence to every project.`,
+  projectsIntro: `My portfolio is a testament to my skills and experience, presenting real-world examples of my work. Through concise project descriptions and live demos, I showcase my proficiency in solving intricate problems, adeptness with diverse technologies, and effective project management. Explore these projects to witness firsthand the depth of my capabilities and the quality of my contributions.
+
+
+
+
+
+
+  `,
 };
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "#resumehere",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
+      link: "https://www.linkedin.com/in/kanhajatthap/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/shridharrai",
+      link: "https://github.com/kanhajatthap",
       icon: github,
     },
   },

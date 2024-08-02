@@ -26,6 +26,7 @@ import typescript from "./tech/typescript.png";
 import nickelfox from "./company/nickelfox.png";
 import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
+import indiainfotech from "./company/indiainfotech.png";
 import proximus from "./company/proximus.png";
 
 import aptihealthWeb from "./projects/aptihealthWeb.png";
@@ -70,4 +71,5 @@ export {
   zealApp,
   rollWeb,
   rollApp,
+  indiainfotech
 };
