@@ -1,7 +1,5 @@
 # 3D Portfolio Website
 
-![3D Portfolio](https://kanhajatthap.vercel.app/)
-
 Welcome to my captivating 3D portfolio website project! Harnessing the power of cutting-edge technologies, I've crafted a mesmerizing and responsive portfolio site that's not just visually stunning but also incredibly easy for anyone to personalize.
 
 ## 🚀 Technologies Used
